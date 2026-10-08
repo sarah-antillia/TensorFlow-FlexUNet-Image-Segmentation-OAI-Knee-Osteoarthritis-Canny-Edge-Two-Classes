@@ -6,7 +6,7 @@ Sarah T. Arai<br>
 Software Laboratory antillia.com<br><br>
 This is the first experiment in Image Segmentation for 
 <a href="https://nda.nih.gov/oai"><b>The Osteoarthritis Initiative(OAI)</b></a> 
-<b>Knee Osteoarthritis Canny Edge Detection Four Classes</b>
+<b>Knee Osteoarthritis Canny Edge Detection Two Classes</b>
  based on
 our <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Model">TensorFlowFlexUNet Model</a>
  (<b>TensorFlow Flexible UNet Image Segmentation Model for Multiclass</b>) and a 256x256-pixel upscaled PNG
@@ -26,9 +26,9 @@ for simplicity.
 For the four classes case, please refer to our experiment 
 <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Canny-Edge-Detection">
 TensorFlow-FlexUNet-Image-Segmentation-OAI-Knee-Osteoarthritis-Canny-Edge-Detection</a>
-<br><br>
+<br>
 <hr>
-<b>Actual Image Segmentation for OAI Knee Canny Edge Two Classes Images of 256x256 pixels</b><br>
+<b>Actual Image Segmentation for OAI Knee Osteoarthritis Canny Edge Two Classes Images of 256x256 pixels</b><br>
 As shown below, the inferred masks resemble the ground-truth masks. <br>
 <br>
 <b>class_color_map = {Doubtful_or_Mild: green, Moderate_or_Severe: dark_red)} </b><br><br>
@@ -373,7 +373,7 @@ This runs the following command.
 <img src="./projects/TensorFlowFlexUNet/OAI-Knee-Canny-Edge-Two-Classes/asset/mini_test_output.png" width="1024" height="auto"><br>
 <br>
 <hr>
-<b>Enlarged images and masks for OAI Knee Canny Edge Detection Images of 256x256 pixels</b><br>
+<b>Enlarged images and masks for OAI Knee Osteoarthritis Canny Edge Detection Images of 256x256 pixels</b><br>
 As shown below, the inferred masks look similar to the ground truth masks except for the second and fourth cases.<br>
 <br>
 <b>class_color_map = {Doubtful_or_Mild: green, Moderate_or_Severe: dark_red)} </b><br><br>
